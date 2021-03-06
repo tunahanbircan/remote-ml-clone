@@ -1,0 +1,18 @@
+POST http://localhost:3000/send-post HTTP/1.1
+content-type: application/json
+
+{"CompanyName": "Facebook", "CompanyWebsite": "facebook.com", "CompanyEmail": "facebook@gmail.com", "JobTitle": "Designer", "JobCategory": "Remote", "JobLevel": "Art Director", "JobDescription": "Test"}
+
+###
+
+GET http://localhost:3000/get-post HTTP/1.1
+content-type: application/json
+
+{}
+
+###
+
+GET http://localhost:3000/post-detail/5ecd48506d2a90a7251c3f57 HTTP/1.1
+content-type: application/json
+
+{}
